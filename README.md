@@ -1,7 +1,7 @@
 # themadump
 ![](https://raw.githubusercontent.com/catmagicspell/themadump/master/app/resource/screenshot.png)</br>
 This homebrew allows you to dump your PSP's active theme to your Memory Stick.<br/>
-It should work on every PSP firmware **regardless of whether it's CFW or OFW**.
+It should work on every PSP firmware **with firmware 2.70+ installed**.
 
 [Download and Installation](https://github.com/catmagicspell/themadump/releases/latest)
 
