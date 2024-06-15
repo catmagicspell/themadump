@@ -7,7 +7,8 @@ all:
 	@rm -rf app/PSP
 	@mkdir -p app/PSP/GAME/themadump
 	@cp app/EBOOT_ENC.PBP app/PSP/GAME/themadump/EBOOT.PBP
+	@cd app && zip -r themeadump.zip PSP && cd ..
 
 clean:
 	make -C app clean
-	@rm -rf app/PSP app/EBOOT*
+	@rm -rf app/PSP app/EBOOT* app/*.zip
