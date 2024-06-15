@@ -10,3 +10,4 @@ It should work on every PSP with **firmware 2.70+ installed**.
 - Zenax for the **[ICON0](https://raw.githubusercontent.com/catmagicspell/themadump/master/app/resource/ICON0.PNG)**<br/>
 - [Acid_Snake](https://github.com/JoseAaronLopezGarcia) and [others who contributed to the LibPspExploit](https://github.com/PSP-Archive/LibPspExploit?tab=readme-ov-file#credits) for **[LibPspExploit](https://github.com/PSP-Archive/LibPspExploit)**<br/>
 - [krazynez](https://github.com/krazynez) for **[wallpaper_dumper](https://github.com/krazynez/wallpaper_dumper)**<br/>
+- [Yoti](https://github.com/yoti) for **[psptools](https://github.com/Yoti/psp_pspident/tree/master/psptools)**<br/>
