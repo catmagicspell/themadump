@@ -7,7 +7,13 @@ RESDIR = ./resource
 CFILES := $(wildcard $(SRCDIR)/*.c)
 OBJS := $(CFILES:.c=.o)
 
+GCC_VERSION=$(shell psp-gcc --version | head -1 | awk '{print $3}')
+#ifneq "$(GCC_VERSION)" "4.3.2"
 CFLAGS = -Ofast -w
+#else
+CFLAGS = -w
+#endif
+
 LIBS = -lpspexploit -lpsprtc
 USE_PSPSDK_LIBC = 1
 USE_PSPSDK_LIBS = 1
